@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58EB72651D0892F700C17EF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EB72641D0892F700C17EF4 /* AppDelegate.swift */; };
+		58EB726A1D0892F700C17EF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58EB72681D0892F700C17EF4 /* Main.storyboard */; };
+		58EB726D1D0892F700C17EF4 /* Quotely.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58EB726B1D0892F700C17EF4 /* Quotely.xcdatamodeld */; };
+		58EB726F1D0892F700C17EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58EB726E1D0892F700C17EF4 /* Assets.xcassets */; };
+		58EB72721D0892F700C17EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58EB72701D0892F700C17EF4 /* LaunchScreen.storyboard */; };
+		58EB727C1D089F1300C17EF4 /* Modum_Regular_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 58EB727B1D089F1300C17EF4 /* Modum_Regular_Regular.otf */; };
+		58EB727E1D08A01100C17EF4 /* penna.otf in Resources */ = {isa = PBXBuildFile; fileRef = 58EB727D1D08A01100C17EF4 /* penna.otf */; };
+		58EB72821D08A08200C17EF4 /* QuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EB72811D08A08200C17EF4 /* QuoteTableViewCell.swift */; };
+		58EB72841D08A12A00C17EF4 /* QuoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EB72831D08A12A00C17EF4 /* QuoteTableViewController.swift */; };
+		58EB72861D08A22F00C17EF4 /* NewQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EB72851D08A22F00C17EF4 /* NewQuoteViewController.swift */; };
+		58EB72881D08AF5B00C17EF4 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EB72871D08AF5B00C17EF4 /* Quote.swift */; };
+		58EB728A1D08AFEF00C17EF4 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EB72891D08AFEF00C17EF4 /* Photo.swift */; };
+		58EB728C1D08B1E900C17EF4 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EB728B1D08B1E900C17EF4 /* QuoteView.swift */; };
+		58EB728E1D08B1F500C17EF4 /* QuoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58EB728D1D08B1F500C17EF4 /* QuoteView.xib */; };
+		618D4B650E36B9331C13FEA7 /* Pods_Quotely.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13E68E45D1DFD42A2333D57 /* Pods_Quotely.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58EB72611D0892F700C17EF4 /* Quotely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotely.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58EB72641D0892F700C17EF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58EB72691D0892F700C17EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58EB726C1D0892F700C17EF4 /* Quotely.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quotely.xcdatamodel; sourceTree = "<group>"; };
+		58EB726E1D0892F700C17EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58EB72711D0892F700C17EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58EB72731D0892F700C17EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58EB727B1D089F1300C17EF4 /* Modum_Regular_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Modum_Regular_Regular.otf; sourceTree = "<group>"; };
+		58EB727D1D08A01100C17EF4 /* penna.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = penna.otf; sourceTree = "<group>"; };
+		58EB72811D08A08200C17EF4 /* QuoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteTableViewCell.swift; sourceTree = "<group>"; };
+		58EB72831D08A12A00C17EF4 /* QuoteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteTableViewController.swift; sourceTree = "<group>"; };
+		58EB72851D08A22F00C17EF4 /* NewQuoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewQuoteViewController.swift; sourceTree = "<group>"; };
+		58EB72871D08AF5B00C17EF4 /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		58EB72891D08AFEF00C17EF4 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		58EB728B1D08B1E900C17EF4 /* QuoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		58EB728D1D08B1F500C17EF4 /* QuoteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuoteView.xib; sourceTree = "<group>"; };
+		74530AA3066D5B64B8C62AB7 /* Pods-Quotely.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotely.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quotely/Pods-Quotely.debug.xcconfig"; sourceTree = "<group>"; };
+		A13E68E45D1DFD42A2333D57 /* Pods_Quotely.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quotely.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23166C12022EC73CB618998 /* Pods-Quotely.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotely.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quotely/Pods-Quotely.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58EB725E1D0892F700C17EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618D4B650E36B9331C13FEA7 /* Pods_Quotely.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207885F12BAFDF464C4BF674 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A13E68E45D1DFD42A2333D57 /* Pods_Quotely.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58EB72581D0892F700C17EF4 = {
+			isa = PBXGroup;
+			children = (
+				58EB72631D0892F700C17EF4 /* Quotely */,
+				58EB72621D0892F700C17EF4 /* Products */,
+				AF890DDB9C86FE54FD82854D /* Pods */,
+				207885F12BAFDF464C4BF674 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		58EB72621D0892F700C17EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58EB72611D0892F700C17EF4 /* Quotely.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58EB72631D0892F700C17EF4 /* Quotely */ = {
+			isa = PBXGroup;
+			children = (
+				58EB72801D08A06500C17EF4 /* Views */,
+				58EB727F1D08A05D00C17EF4 /* Assets */,
+				58EB727A1D089B6500C17EF4 /* Controllers */,
+				58EB72791D089B5F00C17EF4 /* Model */,
+				58EB72641D0892F700C17EF4 /* AppDelegate.swift */,
+				58EB72681D0892F700C17EF4 /* Main.storyboard */,
+				58EB726E1D0892F700C17EF4 /* Assets.xcassets */,
+				58EB72701D0892F700C17EF4 /* LaunchScreen.storyboard */,
+				58EB72731D0892F700C17EF4 /* Info.plist */,
+				58EB726B1D0892F700C17EF4 /* Quotely.xcdatamodeld */,
+			);
+			path = Quotely;
+			sourceTree = "<group>";
+		};
+		58EB72791D089B5F00C17EF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58EB72871D08AF5B00C17EF4 /* Quote.swift */,
+				58EB72891D08AFEF00C17EF4 /* Photo.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		58EB727A1D089B6500C17EF4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				58EB72831D08A12A00C17EF4 /* QuoteTableViewController.swift */,
+				58EB72851D08A22F00C17EF4 /* NewQuoteViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		58EB727F1D08A05D00C17EF4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				58EB727B1D089F1300C17EF4 /* Modum_Regular_Regular.otf */,
+				58EB727D1D08A01100C17EF4 /* penna.otf */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		58EB72801D08A06500C17EF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58EB72811D08A08200C17EF4 /* QuoteTableViewCell.swift */,
+				58EB728B1D08B1E900C17EF4 /* QuoteView.swift */,
+				58EB728D1D08B1F500C17EF4 /* QuoteView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AF890DDB9C86FE54FD82854D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74530AA3066D5B64B8C62AB7 /* Pods-Quotely.debug.xcconfig */,
+				E23166C12022EC73CB618998 /* Pods-Quotely.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58EB72601D0892F700C17EF4 /* Quotely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58EB72761D0892F700C17EF4 /* Build configuration list for PBXNativeTarget "Quotely" */;
+			buildPhases = (
+				A0A137D1513EA08290A7E0DF /* Check Pods Manifest.lock */,
+				58EB725D1D0892F700C17EF4 /* Sources */,
+				58EB725E1D0892F700C17EF4 /* Frameworks */,
+				58EB725F1D0892F700C17EF4 /* Resources */,
+				5760022A42D33C2179F9393E /* Embed Pods Frameworks */,
+				526276FE503439451FE59F95 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quotely;
+			productName = Quotely;
+			productReference = 58EB72611D0892F700C17EF4 /* Quotely.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58EB72591D0892F700C17EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Zach Smoroden";
+				TargetAttributes = {
+					58EB72601D0892F700C17EF4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 58EB725C1D0892F700C17EF4 /* Build configuration list for PBXProject "Quotely" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58EB72581D0892F700C17EF4;
+			productRefGroup = 58EB72621D0892F700C17EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58EB72601D0892F700C17EF4 /* Quotely */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58EB725F1D0892F700C17EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EB727C1D089F1300C17EF4 /* Modum_Regular_Regular.otf in Resources */,
+				58EB727E1D08A01100C17EF4 /* penna.otf in Resources */,
+				58EB72721D0892F700C17EF4 /* LaunchScreen.storyboard in Resources */,
+				58EB728E1D08B1F500C17EF4 /* QuoteView.xib in Resources */,
+				58EB726F1D0892F700C17EF4 /* Assets.xcassets in Resources */,
+				58EB726A1D0892F700C17EF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		526276FE503439451FE59F95 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quotely/Pods-Quotely-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5760022A42D33C2179F9393E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quotely/Pods-Quotely-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0A137D1513EA08290A7E0DF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58EB725D1D0892F700C17EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EB728A1D08AFEF00C17EF4 /* Photo.swift in Sources */,
+				58EB726D1D0892F700C17EF4 /* Quotely.xcdatamodeld in Sources */,
+				58EB72861D08A22F00C17EF4 /* NewQuoteViewController.swift in Sources */,
+				58EB728C1D08B1E900C17EF4 /* QuoteView.swift in Sources */,
+				58EB72651D0892F700C17EF4 /* AppDelegate.swift in Sources */,
+				58EB72841D08A12A00C17EF4 /* QuoteTableViewController.swift in Sources */,
+				58EB72881D08AF5B00C17EF4 /* Quote.swift in Sources */,
+				58EB72821D08A08200C17EF4 /* QuoteTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58EB72681D0892F700C17EF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58EB72691D0892F700C17EF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58EB72701D0892F700C17EF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58EB72711D0892F700C17EF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58EB72741D0892F700C17EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58EB72751D0892F700C17EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58EB72771D0892F700C17EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74530AA3066D5B64B8C62AB7 /* Pods-Quotely.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Quotely/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zachsmoroden.Quotely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		58EB72781D0892F700C17EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E23166C12022EC73CB618998 /* Pods-Quotely.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Quotely/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zachsmoroden.Quotely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58EB725C1D0892F700C17EF4 /* Build configuration list for PBXProject "Quotely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58EB72741D0892F700C17EF4 /* Debug */,
+				58EB72751D0892F700C17EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58EB72761D0892F700C17EF4 /* Build configuration list for PBXNativeTarget "Quotely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58EB72771D0892F700C17EF4 /* Debug */,
+				58EB72781D0892F700C17EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58EB726B1D0892F700C17EF4 /* Quotely.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58EB726C1D0892F700C17EF4 /* Quotely.xcdatamodel */,
+			);
+			currentVersion = 58EB726C1D0892F700C17EF4 /* Quotely.xcdatamodel */;
+			path = Quotely.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 58EB72591D0892F700C17EF4 /* Project object */;
+}
